@@ -151,6 +151,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Index.cshtml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Home\ViewInMainProject.generated.cs">
+      <DependentUpon>ViewInMainProject.cshtml</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Views\Shared\Error.generated.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -285,6 +290,10 @@
       <LastGenOutput>_Layout.generated.cs</LastGenOutput>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\ViewInMainProject.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>ViewInMainProject.generated.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
