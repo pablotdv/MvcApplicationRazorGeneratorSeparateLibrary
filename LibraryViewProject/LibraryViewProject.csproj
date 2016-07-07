@@ -151,6 +151,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Index.cshtml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Home\View.generated.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>View.cshtml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Home\ViewInMainProject.generated.cs">
       <DependentUpon>ViewInMainProject.cshtml</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -293,6 +298,10 @@
     <Content Include="Views\Home\ViewInMainProject.cshtml">
       <Generator>RazorGenerator</Generator>
       <LastGenOutput>ViewInMainProject.generated.cs</LastGenOutput>
+    </Content>
+    <Content Include="Views\Home\View.cshtml">
+      <Generator>RazorGenerator</Generator>
+      <LastGenOutput>View.generated.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
