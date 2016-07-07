@@ -66,6 +66,7 @@ namespace MvcApplicationRazorGeneratorSeparateLibrary.Controllers
 
         public ActionResult Register()
         {
+            ViewBag.Teste = "";
             return View();
         }
 
